@@ -1,0 +1,117 @@
+
+/* Class = "UILabel"; text = "New account"; ObjectID = "0S6-X3-Mte"; */
+"0S6-X3-Mte.text" = "New account";
+
+/* Class = "UILabel"; text = "We will send a text message to log in"; ObjectID = "0pk-rF-Jz7"; */
+"0pk-rF-Jz7.text" = "We will send a text message to log in";
+
+/* Class = "UITextField"; text = "+966"; ObjectID = "2BI-p6-akd"; */
+"2BI-p6-akd.text" = "+966";
+
+/* Class = "UILabel"; text = "02:00"; ObjectID = "2je-yh-haN"; */
+"2je-yh-haN.text" = "02:00";
+
+/* Class = "UILabel"; text = "Email (Optional)"; ObjectID = "Cav-XI-cdO"; */
+"Cav-XI-cdO.text" = "Email (Optional)";
+
+/* Class = "UILabel"; text = "Optional"; ObjectID = "CfJ-Jo-Xja"; */
+"CfJ-Jo-Xja.text" = "Optional";
+
+/* Class = "UILabel"; text = "Keep the address to use later"; ObjectID = "DqO-7b-gyI"; */
+"DqO-7b-gyI.text" = "Keep the address to use later";
+
+/* Class = "UILabel"; text = "Additional details"; ObjectID = "E11-FJ-zCs"; */
+"E11-FJ-zCs.text" = "Additional details";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "ERg-oA-Ty9"; */
+"ERg-oA-Ty9.normalTitle" = "Confirm";
+
+/* Class = "UILabel"; text = "Enter the OTP code"; ObjectID = "ErK-2s-7BR"; */
+"ErK-2s-7BR.text" = "Enter the OTP code";
+
+/* Class = "UISegmentedControl"; F10-OS-77b.segmentTitles[0] = "Home"; ObjectID = "F10-OS-77b"; */
+"F10-OS-77b.segmentTitles[0]" = "Home";
+
+/* Class = "UISegmentedControl"; F10-OS-77b.segmentTitles[1] = "rest"; ObjectID = "F10-OS-77b"; */
+"F10-OS-77b.segmentTitles[1]" = "rest";
+
+/* Class = "UISegmentedControl"; F10-OS-77b.segmentTitles[2] = "shop"; ObjectID = "F10-OS-77b"; */
+"F10-OS-77b.segmentTitles[2]" = "shop";
+
+/* Class = "UILabel"; text = "Shop Name"; ObjectID = "GKL-sa-kpp"; */
+"GKL-sa-kpp.text" = "Shop Name";
+
+/* Class = "UITextField"; placeholder = "  Select the area"; ObjectID = "K7k-Fd-vil"; */
+"K7k-Fd-vil.placeholder" = "  Select the area";
+
+/* Class = "UIButton"; configuration.title = "Skip"; ObjectID = "OhL-cN-Yve"; */
+"OhL-cN-Yve.configuration.title" = "Skip";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "OhL-cN-Yve"; */
+"OhL-cN-Yve.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Resend it"; ObjectID = "Ok6-uB-XNw"; */
+"Ok6-uB-XNw.configuration.title" = "Resend it";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ok6-uB-XNw"; */
+"Ok6-uB-XNw.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Confirm mobile number"; ObjectID = "P0M-EI-zCv"; */
+"P0M-EI-zCv.text" = "Confirm mobile number";
+
+/* Class = "UILabel"; text = "Fill in the following data"; ObjectID = "UUN-bJ-JEH"; */
+"UUN-bJ-JEH.text" = "Fill in the following data";
+
+/* Class = "UITextField"; placeholder = "505505050"; ObjectID = "UW1-fR-8RZ"; */
+"UW1-fR-8RZ.placeholder" = "505505050";
+
+/* Class = "UITextField"; placeholder = "  Name"; ObjectID = "YVh-WY-jav"; */
+"YVh-WY-jav.placeholder" = "  Name";
+
+/* Class = "UILabel"; text = "Commercial Registration No"; ObjectID = "YyI-si-2BL"; */
+"YyI-si-2BL.text" = "Commercial Registration No";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ze0-vG-Hnt"; */
+"Ze0-vG-Hnt.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Additional details"; ObjectID = "ZuZ-He-HTF"; */
+"ZuZ-He-HTF.placeholder" = "Additional details";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bPC-tf-Unv"; */
+"bPC-tf-Unv.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "  mail@gmail.com"; ObjectID = "dAj-8U-Xox"; */
+"dAj-8U-Xox.placeholder" = "  mail@gmail.com";
+
+/* Class = "UITextField"; placeholder = "  Shop Name"; ObjectID = "eeB-sK-KTZ"; */
+"eeB-sK-KTZ.placeholder" = "  Shop Name";
+
+/* Class = "UILabel"; text = "Did the message not arrive?"; ObjectID = "iAN-Ye-XRF"; */
+"iAN-Ye-XRF.text" = "Did the message not arrive?";
+
+/* Class = "UITextField"; placeholder = "  0123"; ObjectID = "lEI-qH-iYF"; */
+"lEI-qH-iYF.placeholder" = "  0123";
+
+/* Class = "UILabel"; text = "Enter mobile number"; ObjectID = "lXY-3s-KCe"; */
+"lXY-3s-KCe.text" = "Enter mobile number";
+
+/* Class = "UIButton"; configuration.title = "Confirm"; ObjectID = "ogi-b2-i8j"; */
+"ogi-b2-i8j.configuration.title" = "Confirm";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ogi-b2-i8j"; */
+"ogi-b2-i8j.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "op4-xi-BNT"; */
+"op4-xi-BNT.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "vM3-G8-Qad"; */
+"vM3-G8-Qad.text" = "Name";
+
+/* Class = "UILabel"; text = "Region"; ObjectID = "xXY-19-rfJ"; */
+"xXY-19-rfJ.text" = "Region";
+
+/* Class = "UIButton"; configuration.title = "Confirm Location"; ObjectID = "zBQ-65-gyA"; */
+"zBQ-65-gyA.configuration.title" = "Confirm Location";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zBQ-65-gyA"; */
+"zBQ-65-gyA.normalTitle" = "Button";
