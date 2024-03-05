@@ -1,13 +1,13 @@
 //
-//  languageViewController.swift
+//  TermsViewController.swift
 //  Fleen
 //
-//  Created by Mina Eid on 23/01/2024.
+//  Created by Mina Eid on 05/03/2024.
 //
 
 import UIKit
 
-class languageViewController: UIViewController {
+class TermsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
