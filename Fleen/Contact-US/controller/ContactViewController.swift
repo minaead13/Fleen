@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MOLH
 
 class ContactViewController: UIViewController {
 
@@ -35,6 +36,8 @@ class ContactViewController: UIViewController {
         
     }
     
+   
+    
     func addTapGesture(){
        
         let whatsTapGesture = UITapGestureRecognizer(target: self, action: #selector(didTapWhatsImage))
@@ -45,6 +48,7 @@ class ContactViewController: UIViewController {
     }
     
     private func setUI(){
+        checkLanguage()
         self.tabBarController?.tabBar.isHidden = true
         dismissBtn.setTitle("", for: .normal)
         self.view.backgroundColor = UIColor.black.withAlphaComponent(0.7)
@@ -55,6 +59,15 @@ class ContactViewController: UIViewController {
         mobileLabel.font = UIFont(name: "DMSans18pt-Regular", size: 18)
         locationLabel.font = UIFont(name: "DMSans18pt-Regular", size: 18)
         
+    }
+    
+    func checkLanguage(){
+        let isArabic = MOLHLanguage.currentAppleLanguage() == "ar"
+        let alignment: NSTextAlignment = isArabic ? .right : .left
+        
+        mobileLabel.textAlignment = alignment
+        locationLabel.textAlignment = alignment
+        contactLabel.textAlignment = alignment
     }
     
     @objc func didTapEmailImage(){

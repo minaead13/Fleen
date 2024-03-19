@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MOLH
 
 class ProductsCollectionViewCell: UICollectionViewCell {
     
@@ -17,6 +18,7 @@ class ProductsCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        checkLanguage()
         titleLabel.font = UIFont(name: "DMSans-Bold", size: 14)
         subTitleLabel.font = UIFont(name: "DMSans18pt-Regular", size: 12)
     }
@@ -25,6 +27,14 @@ class ProductsCollectionViewCell: UICollectionViewCell {
         self.titleLabel.text = viewModel.title
       //  self.subTitleLabel.text = viewModel.subTitle
         self.productImageView.kf.setImage(with: URL(string: viewModel.image.orEmpty))
+    }
+    
+    func checkLanguage(){
+        let isArabic = MOLHLanguage.currentAppleLanguage() == "ar"
+        let alignment: NSTextAlignment = isArabic ? .right : .left
+        
+        titleLabel.textAlignment = alignment
+        subTitleLabel.textAlignment = alignment
     }
 
     override func prepareForReuse() {

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MOLH
 
 class ItemDetailsViewController: UIViewController {
     @IBOutlet weak var productImage: UIImageView!
@@ -44,6 +45,7 @@ class ItemDetailsViewController: UIViewController {
         getCartCount()
         setData()
         setPickerView()
+        checkLanguage()
     }
     
     private func setPickerView(){
@@ -51,6 +53,16 @@ class ItemDetailsViewController: UIViewController {
         pickerView.dataSource = self
         
         pickerView.selectRow(0, inComponent: 0, animated: false)
+    }
+    
+    func checkLanguage(){
+        let isArabic = MOLHLanguage.currentAppleLanguage() == "ar"
+        let alignment: NSTextAlignment = isArabic ? .right : .left
+        
+        titleLabel.textAlignment = alignment
+        subTitleLabel.textAlignment = alignment
+        detailsLabel.textAlignment = alignment
+        descriptionTextField.textAlignment = alignment
     }
     
     func bindingViewModel(){

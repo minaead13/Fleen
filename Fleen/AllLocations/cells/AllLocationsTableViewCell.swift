@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MOLH
 
 class AllLocationsTableViewCell: UITableViewCell {
     
@@ -26,6 +27,16 @@ class AllLocationsTableViewCell: UITableViewCell {
         titleLabel.font =  UIFont(name: "DMSans-Bold", size: 16)
         detailesLabel.font = UIFont(name: "DMSans18pt-Regular", size: 14)
         phoneLabel.font = UIFont(name: "DMSans18pt-Regular", size: 14)
+        checkLanguage()
+    }
+    
+    func checkLanguage(){
+        let isArabic = MOLHLanguage.currentAppleLanguage() == "ar"
+        let alignment: NSTextAlignment = isArabic ? .right : .left
+        
+        titleLabel.textAlignment = alignment
+        detailesLabel.textAlignment = alignment
+        phoneLabel.textAlignment = alignment
     }
     
     func config(address : AddressModel){

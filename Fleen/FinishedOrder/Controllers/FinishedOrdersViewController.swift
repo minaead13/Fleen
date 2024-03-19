@@ -89,4 +89,18 @@ class FinishedOrdersViewController: UIViewController {
             removeSpinner(spinner: sv)
         }
     }
+    
+    func openDetails(productsID : Int){
+        guard let ordersDetails = viewModel.retriveMovie(with: productsID ) else { return }
+        
+        let itemDetailsViewModel = OrderDetailsViewModel(orderDetails: ordersDetails)
+        let storyboard = UIStoryboard(name: "Home", bundle: nil)
+          
+          if let itemController = storyboard.instantiateViewController(withIdentifier: "OrderDetailsViewController") as? OrderDetailsViewController {
+              itemController.viewModel = itemDetailsViewModel
+              DispatchQueue.main.async {
+                  self.navigationController?.pushViewController(itemController, animated: true)
+              }
+          }
+    }
 }

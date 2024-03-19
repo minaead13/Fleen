@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MOLH
 
 class OrdersTableViewCell: UITableViewCell {
     
@@ -33,6 +34,7 @@ class OrdersTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        checkLanguage()
         //contentStack.semanticContentAttribute = .forceRightToLeft
         increaseBtn.setTitle("", for: .normal)
         decreaseBtn.setTitle("", for: .normal)
@@ -41,6 +43,15 @@ class OrdersTableViewCell: UITableViewCell {
         priceLabel.font = UIFont(name: "DMSans18pt-Regular", size: 16)
         unitLabel.font = UIFont(name: "DMSans18pt-Regular", size: 12)
         countLabel.font = UIFont(name: "DMSans-Bold", size: 18)
+    }
+    
+    func checkLanguage(){
+        let isArabic = MOLHLanguage.currentAppleLanguage() == "ar"
+        let alignment: NSTextAlignment = isArabic ? .right : .left
+        
+        orderTitleLabel.textAlignment = alignment
+        priceLabel.textAlignment = alignment
+        unitLabel.textAlignment = alignment
     }
     
     func config(cart : CartCellViewModel){

@@ -7,6 +7,7 @@
 
 import UIKit
 import DropDown
+import MOLH
 class RegisterViewController: UIViewController , UITextFieldDelegate {
     
     @IBOutlet weak var regionTextField: UITextField!
@@ -52,7 +53,24 @@ class RegisterViewController: UIViewController , UITextFieldDelegate {
         setFonts()
         setupTextField()
         setupDropdownTableView()
+        checkLanguage()
         
+    }
+    
+    func checkLanguage(){
+        let isArabic = MOLHLanguage.currentAppleLanguage() == "ar"
+        let alignment: NSTextAlignment = isArabic ? .right : .left
+        
+        NameLabel.textAlignment = alignment
+        nameTextField.textAlignment = alignment
+        emailLabel.textAlignment = alignment
+        emailTextField.textAlignment = alignment
+        regionLabel.textAlignment = alignment
+        regionTextField.textAlignment = alignment
+        shopNameLabel.textAlignment = alignment
+        shopNameTextField.textAlignment = alignment
+        commercialLabel.textAlignment = alignment
+        commercialTextField.textAlignment = alignment
     }
     
     

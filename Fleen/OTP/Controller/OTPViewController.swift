@@ -7,6 +7,7 @@
 
 import UIKit
 import NVActivityIndicatorView
+import MOLH
 
 class OTPViewController: UIViewController , UITextFieldDelegate{
 
@@ -40,7 +41,14 @@ class OTPViewController: UIViewController , UITextFieldDelegate{
         setupTextFieldDelegates()
         hideKeyboardWhenTappedAround()
         setupBindings()
+        checkLanguage()
+    }
+    
+    func checkLanguage(){
+        let isArabic = MOLHLanguage.currentAppleLanguage() == "ar"
+        let alignment: NSTextAlignment = isArabic ? .right : .left
         
+        messageLbl.textAlignment = alignment
     }
     
     private func setNavigation(){

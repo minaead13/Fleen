@@ -8,6 +8,7 @@
 import UIKit
 import MapKit
 import CoreLocation
+import MOLH
 
 protocol LocationViewControllerDelegate: AnyObject {
     func locationViewControllerDidSendLocation()
@@ -40,6 +41,9 @@ class AddLocationViewController: UIViewController , CLLocationManagerDelegate  ,
         }
     }
     
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -53,6 +57,18 @@ class AddLocationViewController: UIViewController , CLLocationManagerDelegate  ,
         setNavigation()
         setFonts()
         hideViews()
+        checkLanguage()
+    }
+    
+    func checkLanguage(){
+        let isArabic = MOLHLanguage.currentAppleLanguage() == "ar"
+        let alignment: NSTextAlignment = isArabic ? .right : .left
+        
+        locationTitleLabel.textAlignment = alignment
+        keepLocationLabel.textAlignment = alignment
+        additionalLabel.textAlignment = alignment
+        optionalLabel.textAlignment = alignment
+        additionalTextField.textAlignment = alignment
     }
     
     private func setNavigation(){

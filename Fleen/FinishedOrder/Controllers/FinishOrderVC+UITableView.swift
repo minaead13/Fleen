@@ -25,5 +25,11 @@ extension FinishedOrdersViewController : UITableViewDelegate , UITableViewDataSo
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 127
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let item = totalOrdersCellDataSource[indexPath.row].id
+        self.openDetails(productsID: item.orEmpty)
+    }
 
 }

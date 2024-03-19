@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MOLH
 
 protocol DeleteLocationViewControllerDelegate: AnyObject {
     func locationViewControllerDidDeleteLocation()
@@ -54,6 +55,16 @@ class DeleteLocationViewController: UIViewController {
         
         let logOutAttributedTitle = self.attributedTitle(for: "Delete".localized, font: UIFont(name: "DMSans18pt-Regular", size: 16)!)
         deleteBtn.setAttributedTitle(logOutAttributedTitle, for: .normal)
+        checkLanguage()
+    }
+    
+    func checkLanguage(){
+        let isArabic = MOLHLanguage.currentAppleLanguage() == "ar"
+        let alignment: NSTextAlignment = isArabic ? .right : .left
+        
+        homeLabel.textAlignment = alignment
+        addressDetailsLabel.textAlignment = alignment
+        phoneLabel.textAlignment = alignment
     }
     
     func attributedTitle(for text: String, font: UIFont) -> NSAttributedString {

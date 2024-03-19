@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MOLH
 
 class ChangeProfileViewController: UIViewController {
     
@@ -45,6 +46,23 @@ class ChangeProfileViewController: UIViewController {
         setNavigation()
         bindingViewModel()
         getProfilDetails()
+        checkLanguage()
+    }
+    
+    func checkLanguage(){
+        let isArabic = MOLHLanguage.currentAppleLanguage() == "ar"
+        let alignment: NSTextAlignment = isArabic ? .right : .left
+        
+        NameLabel.textAlignment = alignment
+        nameTextField.textAlignment = alignment
+        emailLabel.textAlignment = alignment
+        emailTextField.textAlignment = alignment
+        phoneLabel.textAlignment = alignment
+        phoneNumberLabel.textAlignment = alignment
+        shopNameLabel.textAlignment = alignment
+        shopNameTextField.textAlignment = alignment
+        commercialLabel.textAlignment = alignment
+        commercialTextField.textAlignment = alignment
     }
     
     func setNavigation(){

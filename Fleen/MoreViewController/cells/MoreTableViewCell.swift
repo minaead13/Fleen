@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MOLH
 
 class MoreTableViewCell: UITableViewCell {
 
@@ -16,7 +17,16 @@ class MoreTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        checkLanguage()
         titleLabel.font = UIFont(name: "DMSans18pt-Regular", size: 15)
+    }
+    
+    func checkLanguage(){
+        let isArabic = MOLHLanguage.currentAppleLanguage() == "ar"
+        let alignment: NSTextAlignment = isArabic ? .right : .left
+        
+        titleLabel.textAlignment = alignment
+        
     }
 
     

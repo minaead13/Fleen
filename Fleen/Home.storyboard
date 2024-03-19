@@ -1774,25 +1774,25 @@
                                                         <rect key="frame" x="15" y="0.0" width="295" height="120"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ump-xe-OS6">
-                                                                <rect key="frame" x="0.0" y="0.0" width="209" height="120"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="179" height="120"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="90E-eM-aBB">
-                                                                        <rect key="frame" x="0.0" y="14" width="209" height="92"/>
+                                                                        <rect key="frame" x="0.0" y="14" width="179" height="92"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Request No. 12356" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Pd-ws-sWG">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="209" height="30.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="179" height="30.5"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                                 <color key="textColor" red="0.023529411760000001" green="0.086274509799999996" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 varieties" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGB-oq-xc2">
-                                                                                <rect key="frame" x="0.0" y="30.5" width="209" height="31"/>
+                                                                                <rect key="frame" x="0.0" y="30.5" width="179" height="31"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                                 <color key="textColor" red="0.023529411760000001" green="0.086274509799999996" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1-18-2024" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Mi-x7-iAP">
-                                                                                <rect key="frame" x="0.0" y="61.5" width="209" height="30.5"/>
+                                                                                <rect key="frame" x="0.0" y="61.5" width="179" height="30.5"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                                 <color key="textColor" red="0.55294117649999996" green="0.55294117649999996" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1808,10 +1808,10 @@
                                                                     <constraint firstItem="90E-eM-aBB" firstAttribute="top" secondItem="ump-xe-OS6" secondAttribute="top" constant="14" id="Rfp-WP-JXo"/>
                                                                 </constraints>
                                                             </view>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="under delivery" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abK-Zt-K92">
-                                                                <rect key="frame" x="215" y="0.0" width="80" height="120"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="under delivery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abK-Zt-K92">
+                                                                <rect key="frame" x="185" y="0.0" width="110" height="120"/>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="width" constant="80" id="24I-pp-4vx"/>
+                                                                    <constraint firstAttribute="width" constant="110" id="24I-pp-4vx"/>
                                                                 </constraints>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                                 <color key="textColor" red="0.050980392159999999" green="0.46666666670000001" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
