@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeViewModel {
+class MoreViewModel {
     
     var numberOfSections = 9
 }

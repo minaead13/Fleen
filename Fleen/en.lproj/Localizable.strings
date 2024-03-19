@@ -5,3 +5,159 @@
   Created by Mina Eid on 23/01/2024.
   
 */
+"Skip" = "Skip";
+"Enter mobile number" = "Enter mobile number";
+"We will send a text message to log in" = "We will send a text message to log in";
+"+966" = "+966";
+"505505050" = "505505050";
+"Continue" = "Continue";
+
+"Confirm mobile number" = "Confirm mobile number";
+"Enter the OTP code" = "Enter the OTP code";
+"Did the message not arrive?" = "Did the message not arrive?";
+"Confirm" = "Confirm";
+"Resend it" = "Resend it";
+
+"New account" = "New account";
+"Fill in the following data" = "Fill in the following data";
+"Name" = "Name";
+"Email (Optional)" = "Email (Optional)";
+"Region" = "Region";
+"select the area" = "select the area" ;
+"Shop name" = "Shop name";
+"Commercial Registration No" = "Commercial Registration No";
+
+
+"Keep the address to use later" = "Keep the address to use later";
+"Home" = "Home";
+"rest" = "rest";
+"shop" = "shop";
+"Additional details" = "Additional details";
+"Optional" = "Optional";
+"Confirm Location" = "Confirm Location" ;
+
+
+"Please Enter your name" = "Please Enter your name";
+"Please enter your mail in correct format" = "Please enter your mail in correct format";
+"Please Enter your region" = "Please Enter your region";
+"Please Enter your shop name" = "Please Enter your shop name";
+"Please Enter your commercial registration number" = "Please Enter your commercial registration number";
+
+
+"Error" = "Error";
+"Network Failed, Please try again." = "Network Failed, Please try again.";
+
+"Home" = "Home";
+"Search now" = "Search now";
+
+
+"Add to cart" = "Add to cart";
+
+
+"delivery time" = "delivery time";
+"total order" = "total order";
+"By executing the order, you agree to the terms and conditions. All prices include 15% value-added tax" = "By executing the order, you agree to the terms and conditions. All prices include 15% value-added tax";
+
+"sent the order" = "sent the order";
+
+"More" = "More" ;
+"Home" = "Home";
+"Orders" = "Orders";
+
+
+"Each" = "Each" ;
+"contains" = "contains";
+"on" = "on";
+
+
+"please choose country and the degree"  = "please choose country and the degree";
+
+
+"Alert" = "تنبيه";
+"Close" = "إغلاق" ;
+"Settings" = "الإعدادات";
+"Please allow the location" = "الرجاء السماح بالموقع";
+"Location services are not enabled." = "لم يتم تمكين خدمات الموقع.";
+
+"New location" = "New location";
+
+"request sent" = "request sent";
+"Thank you for using Fleen to complete your order. Your order is now in our hands" = "Thank you for using Fleen to complete your order. Your order is now in our hands";
+"thanks" = "thanks";
+
+"choose your location" = "choose your location";
+"choose your payment method" = "choose your payment method";
+
+"pay cash" = "pay cash";
+"Payment via mada" = "Payment via mada" ;
+"Payment via wallet" = "Payment via wallet";
+
+
+"Please choose your address" = "Please choose your address";
+"Please choose your payment method" = "Please choose your payment method";
+"Please choose your delivery time" = "Please choose your delivery time";
+
+"pm" = "pm";
+"am" = "am";
+
+"Delete Item" = "Delete Item";
+"Are you sure you want to delete this item?" = "Are you sure you want to delete this item?";
+"Delete" = "Delete";
+"Cancel" = "Cancel";
+
+"The product added to shopping cart" = "The product added to shopping cart";
+
+"Orders" = "Orders";
+"Finished" = "Finished";
+"the ending" = "the ending";
+
+"There are no requests" = "There are no requests";
+
+"Categories" = "Categories";
+"Category" = "Category";
+
+"Request no." = "Request no.";
+
+"Open" = "Open";
+"Finished" = "Finished";
+
+"am" = "am";
+"pm" = "pm";
+
+"Profile" = "Profile";
+"Locations" = "Locations";
+"Payment methods" = "Payment methods";
+"Terms and Conditions" = "Terms and Conditions";
+"Privacy policy" = "Privacy policy" ;
+"Contact Us" = "Contact Us" ;
+"Rate Us" = "Rate Us";
+"Language" = "Language";
+"Log out" = "Log out";
+
+"Contact us" = "Contact us";
+"WhatsApp is not installed on this device" = "WhatsApp is not installed on this device";
+
+"Language" = "Language";
+
+"Arabic" = "Arabic" ;
+"English" = "English";
+
+"Do you want to log out?" = "Do you want to log out?";
+"No" = "No";
+"Log out" = "Log out";
+
+"Locations" = "Locations";
+"Delete" = "Delete";
+"Do you want to delete the address?" = "Do you want to delete the address?";
+"Add Location" = "Add Location";
+
+"Email" = "Email";
+"Save" = "Save";
+
+
+"Resend the request" = "Resend the request";
+"When you resend the request, this may result in an increase or decrease in the prices of the selected products" = "When you resend the request, this may result in an increase or decrease in the prices of the selected products";
+"Ok" = "Ok";
+
+"Reorder" = "reorder" ;
+"Contact support" = "Contact support";

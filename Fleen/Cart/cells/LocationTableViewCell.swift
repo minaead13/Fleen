@@ -9,15 +9,18 @@ import UIKit
 
 class LocationTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var locImageView: UIImageView!
+    @IBOutlet weak var titleLbl: UILabel!
+    @IBOutlet weak var subTitleLabel: UILabel!
+    var id : Int?
+    static let identifier = String(describing: LocationTableViewCell.self)
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        subTitleLabel.font = UIFont(name: "DMSans18pt-Regular", size: 10)
+        titleLbl.font = UIFont(name: "DMSans-Bold", size: 13)
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+    
     
 }

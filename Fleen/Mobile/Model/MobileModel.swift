@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct MobileModel : Codable {
+    let phone : String?
+    let code : Int?
+    var first_login : Bool?
+}

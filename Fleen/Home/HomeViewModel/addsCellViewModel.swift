@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+class addsCellViewModel {
+    let id: Int?
+    let image: String?
+    
+    init(banners : Banner) {
+        self.id = banners.id
+        self.image = banners.image
+    }
+    
+}

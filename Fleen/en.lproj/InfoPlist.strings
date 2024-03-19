@@ -5,3 +5,7 @@
   Created by Mina Eid on 24/01/2024.
   
 */
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "We need your location to ensure a seamless shopping experience. Granting location access allows us to deliver products to your precise location, track your order in real-time, and provide accurate delivery estimates. Your privacy and security are our top priorities, and your location data will only be used for order fulfillment purposes.";
+
+"NSLocationWhenInUseUsageDescription" = "We need your location to ensure a seamless shopping experience. Granting location access allows us to deliver products to your precise location, track your order in real-time, and provide accurate delivery estimates. Your privacy and security are our top priorities, and your location data will only be used for order fulfillment purposes.";
+ 

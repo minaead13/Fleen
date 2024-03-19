@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct BaseModel <T: Codable>: Codable {
+    
+    var code  : Int?
+    var message : String?
+    var data    : T?
+    
+}

@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+import UIKit
+struct OnboardingSlide {
+    let title : String
+    let image : UIImage
+    let subTitle : String
+}

@@ -1,0 +1,86 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire",
+      "state" : {
+        "revision" : "3dc6a42c7727c49bf26508e29b0a0b35f9c7e1ad",
+        "version" : "5.8.1"
+      }
+    },
+    {
+      "identity" : "iqkeyboardmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQKeyboardManager",
+      "state" : {
+        "revision" : "aa656e1f0d95f0154622f453599318602848be3b",
+        "version" : "7.0.1"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher",
+      "state" : {
+        "revision" : "5b92f029fab2cce44386d28588098b5be0824ef5",
+        "version" : "7.11.0"
+      }
+    },
+    {
+      "identity" : "molh",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MoathOthman/MOLH",
+      "state" : {
+        "revision" : "c78502b5a5e9d5add901c2c6de546d6b320e7b73",
+        "version" : "1.4.3"
+      }
+    },
+    {
+      "identity" : "nvactivityindicatorview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ninjaprox/NVActivityIndicatorView",
+      "state" : {
+        "revision" : "bcb52371f2259254bac6690f92bb474a61768c47",
+        "version" : "5.1.1"
+      }
+    },
+    {
+      "identity" : "snackbar.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ahmedAlmasri/SnackBar.swift",
+      "state" : {
+        "revision" : "9efa0f9d2a6ae35384a878a0d74dbafd5001a672",
+        "version" : "0.1.2"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    },
+    {
+      "identity" : "swiftmessages",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftKickMobile/SwiftMessages",
+      "state" : {
+        "revision" : "62e12e138fc3eedf88c7553dd5d98712aa119f40",
+        "version" : "9.0.9"
+      }
+    },
+    {
+      "identity" : "uiscrollview-infinitescroll",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pronebird/UIScrollView-InfiniteScroll",
+      "state" : {
+        "revision" : "ff0c2b0d0d83961f36df3dfb3e6ff6929ff46dd3",
+        "version" : "1.3.0"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -5,3 +5,150 @@
   Created by Mina Eid on 23/01/2024.
   
 */
+"Skip" = "تخطي";
+
+"Enter mobile number" = "ادخل رقم الهاتف";
+"We will send a text message to log in" = "سنقوم بارسال رساله نصيه لتسجيل الدخول";
+"+966" = "+966";
+"505505050" = "505505050";
+"Continue" = "متابعه";
+
+"Confirm mobile number" = "تاكيد رقم الهاتف";
+"Enter the OTP code" = "OTPادخل رمز ال";
+"Did the message not arrive?" = "لم تصلك الرساله؟";
+"Confirm" = "تاكيد";
+"Resend it" = "ارسل مجددا";
+
+"New account" = "حساب جديد";
+"Fill in the following data" = "قم بملئ البيانات التالية";
+"Name" = "الاسم";
+"Email (Optional)" = "الايميل (اختياري)";
+"Region" = "المنطقه";
+"select the area" = "اختر المنطقه" ;
+"Shop name" = "اسم المحل";
+"Commercial Registration No" = "رقم السجل التجاري";
+
+
+"Keep the address to use later" = "احفظ العنوان لاستخدامه لاحقا";
+"Home" = "المنزل";
+"rest" = "الاستراحه";
+"shop" = "المتجر";
+"Additional details" = "تفاصيل اضافيه";
+"Optional" = "اختياري";
+"Confirm Location" = "تاكيد الموقع" ;
+
+
+"Please Enter your name" = "من فضلك أدخل إسمك";
+"Please enter your mail in correct format" = "الرجاء إدخال بريدك بالتنسيق الصحيح";
+"Please Enter your region" = "من فضلك أدخل منطقتك";
+"Please Enter your shop name" = "من فضلك أدخل اسم متجرك";
+"Please Enter your commercial registration number" = "الرجاء إدخال رقم السجل التجاري الخاص بك";
+
+"Error" = "خطأ";
+"Network Failed, Please try again." = "فشلت الشبكة، يرجى المحاولة مرة أخرى.";
+
+"Home" = "الرئيسية";
+"Search now" = "البحث الان";
+
+
+"Add to cart" = "اضف الي العربه";
+
+"delivery time" = "وقت التوصيل";
+"total order" = "مجموع الطلب";
+"sent the order" = "ارسال الطلب";
+"By executing the order, you agree to the terms and conditions. All prices include 15% value-added tax" = "من خلال تنفيذ الأمر، فإنك توافق على الشروط والأحكام. جميع الأسعار تشمل 15% ضريبة القيمة المضافة";
+
+"More" = "المزيد" ;
+"Home" = "الرئيسية";
+"Orders" = "الطلبات";
+
+"Each" = "كل" ;
+"contains" = "يحتوي";
+"on" = "علي";
+
+"please choose country and the degree"  = "يُرجى اختيار البلد والدرجة";
+
+"New location" = "عنوان جديد";
+
+"request sent" = "تم ارسال الطلب";
+"Thank you for using Fleen to complete your order. Your order is now in our hands" = "شكرا لاستخدامك فلين لاتمام طلبك  طلبك الان بين ايدينا ";
+"thanks" = "شكراً";
+
+
+"choose your location" = "اختر موقعك";
+"choose your payment method" = "اختر طريقة الدفع";
+
+
+"pay cash" = "الدفع  نقداّ";
+"Payment via mada" = "الدفع عن طريق مدي" ;
+"Payment via wallet" = "الدفع عن طريق المحفظه ";
+
+
+"Please choose your address" = "من فضلك اختر عنوانك";
+"Please choose your payment method" = "يُرجى اختيار طريقة الدفع الخاصة بك";
+"Please choose your delivery time" = "الرجاء اختيار وقت التسليم";
+
+"pm" = "مسائى";
+"am" = "صباحي";
+
+"Delete Item" = "حذف المنتج";
+"Are you sure you want to delete this item?" = "هل أنت متأكد أنك تريد حذف هذا المنتج؟";
+"Delete" = "مسح";
+"Cancel" = "إلغاء";
+
+"The product added to shopping cart" = "تم إضافة المنتج إلى عربة التسوق";
+
+"Orders" = "الطلبات";
+"Finished" = "المفتوحة";
+"the ending" = "المنتهية";
+
+"There are no requests" = "لا يوجد طلبات";
+
+"Categories" = "اصناف";
+"Category" = "صنف";
+
+"Request no." = "طلب رقم";
+"Open" = "المفتوحة";
+"Finished" = "المنتهية";
+
+"am" = "م";
+"pm" = "ص";
+
+"Profile" = "الملف الشخصي";
+"Locations" = "العناوين";
+"Payment methods" = "طرق الدفع";
+"Terms and Conditions" = "الشروط والاحكام";
+"Privacy policy" = "سياسه الخصوصيه" ;
+"Contact Us" = "تواصل معنا" ;
+"Rate Us" = "قيمنا";
+"Language" = "اللغه";
+"Log out" = "تسجيل الخروج";
+
+"Contact us" = "تواصل معنا";
+"WhatsApp is not installed on this device" = "الواتساب غير مثبت علي جهازك";
+
+"Language" = "اللغة";
+
+"Arabic" = "عربي" ;
+"English" = "انجليزي";
+
+"Do you want to log out?" = "هل تريد تسجيل الخروج?";
+"No" = "لأ";
+"Log out" = "تسجيل الخروج";
+
+"Locations" = "العناويين";
+
+"Delete" = "مسح";
+"Do you want to delete the address?" = "هل تريد حذف العنوان؟";
+"Add Location" = "اضافه عنوان";
+
+"Email" = "الايميل";
+"Save" = "حفظ التغييرات";
+
+
+"Resend the request" = "إعادة إرسال الطلب";
+"When you resend the request, this may result in an increase or decrease in the prices of the selected products" = "عند إعادة إرسال الطلب، قد يؤدي ذلك إلى زيادة أو نقصان في أسعار المنتجات المحددة";
+"Ok" = "حسنآ";
+
+"Reorder" = "اعاده الطلب";
+"Contact support" = "تواصل مع الدعم";
