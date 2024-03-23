@@ -31,6 +31,8 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+      //  setupNotificationsBadge()
+        
         selectIndexInFilter = 0
         filterCollectioView.reloadData()
         self.navigationController?.navigationBar.isHidden = false
@@ -62,6 +64,41 @@ class HomeViewController: UIViewController {
             
             self?.setupCartBadge(count: count)
         }
+    }
+    
+    func setupNotificationsBadge() {
+       // if let count = count, count > 0 {
+            let button = UIButton(type: .custom)
+            button.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
+            button.setImage(UIImage(named: "notifications"), for: .normal)
+            button.addTarget(self, action: #selector(leftBarButtonTapped), for: .touchUpInside)
+            
+//            let badgeView = UIView(frame: CGRect(x: button.frame.size.width - 20, y: 0, width: 16, height: 16))
+//            badgeView.backgroundColor = UIColor.gold
+//            badgeView.layer.cornerRadius = badgeView.frame.size.height / 2
+//            
+//            let badgeLabel = UILabel(frame: badgeView.bounds)
+//            badgeLabel.textAlignment = .center
+//            badgeLabel.textColor = UIColor.white
+//            badgeLabel.font = UIFont.systemFont(ofSize: 12)
+//            badgeLabel.text = "\(count)"
+//            badgeView.addSubview(badgeLabel)
+//            
+//            button.addSubview(badgeView)
+//            
+//            let tapGesture = UITapGestureRecognizer(target: self, action: #selector(rightBarButtonTapped))
+//            badgeView.addGestureRecognizer(tapGesture)
+            
+            let barButton = UIBarButtonItem(customView: button)
+            navigationItem.rightBarButtonItem = barButton
+//        } else {
+//            navigationItem.rightBarButtonItem = nil
+//        }
+    }
+    
+    @objc func leftBarButtonTapped() {
+        let vc = UIStoryboard(name: "notifications", bundle: nil).instantiateViewController(withIdentifier: "MessagesViewController") as! MessagesViewController
+        self.navigationController?.pushViewController(vc, animated: true)
     }
         
     func initLoadMoreToRefresh(){
@@ -168,7 +205,7 @@ class HomeViewController: UIViewController {
         searchBar.placeholder = "Search now".localized
         searchBar.searchTextField.font = UIFont(name: "DMSans18pt-Regular", size: 14)
         
-        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "notification"), style: .plain, target: self, action: #selector(leftBarButtonTapped))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "notifications"), style: .plain, target: self, action: #selector(leftBarButtonTapped))
         
         if let customFont = UIFont(name: "MSans-Bold", size: 20) {
             let attributes: [NSAttributedString.Key: Any] = [
@@ -183,9 +220,9 @@ class HomeViewController: UIViewController {
     
    
     
-    @objc func leftBarButtonTapped() {
-      
-    }
+//    @objc func leftBarButtonTapped() {
+//      
+//    }
     
     func setCollectionView(){
         adsCollectionView.registerCell(cell: AdsCollectionViewCell.self)

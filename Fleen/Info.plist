@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>To provide you with personalized support, we need access to your documents. This allows you to engage with our call center and share documents for better assistance. </string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>To provide you with personalized support, we need access to your photo library. This allows you to engage with our call center and share photos for better assistance. </string>
+	<key>NSCameraUsageDescription</key>
+	<string>To provide you with personalized support, we need access to your camera. This allows you to engage with our call center and share photos for better assistance. </string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>

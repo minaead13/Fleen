@@ -37,7 +37,7 @@ class OrderConfirmationViewController: UIViewController {
         resendLabel.font = UIFont(name: "DMSans-Bold", size: 16)
         subTitleLabel.font = UIFont(name: "DMSans18pt-Regular", size: 16)
     
-        let okAttributedTitle = self.attributedTitle(for: "OK".localized, font: UIFont(name: "DMSans18pt-Regular", size: 16)!)
+        let okAttributedTitle = self.attributedTitle(for: "Ok".localized, font: UIFont(name: "DMSans18pt-Regular", size: 16)!)
         okBtn.setAttributedTitle(okAttributedTitle, for: .normal)
     }
     

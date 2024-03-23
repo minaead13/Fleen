@@ -32,12 +32,20 @@
 		A91180CD2B67AB2D00B3763F /* ProductsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91180CB2B67AB2D00B3763F /* ProductsCollectionViewCell.xib */; };
 		A91180CF2B67B5A000B3763F /* TableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91180CE2B67B5A000B3763F /* TableView+Extensions.swift */; };
 		A91180D12B67B5B800B3763F /* CollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91180D02B67B5B800B3763F /* CollectionView+Extensions.swift */; };
+		A9118BC62BAC785800D0320C /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118BC52BAC785800D0320C /* NotificationsViewController.swift */; };
+		A9118BCC2BAC789100D0320C /* NotificationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118BCA2BAC789100D0320C /* NotificationsTableViewCell.swift */; };
+		A9118BCD2BAC789100D0320C /* NotificationsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9118BCB2BAC789100D0320C /* NotificationsTableViewCell.xib */; };
+		A9118BD12BAC925400D0320C /* notificationsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118BD02BAC925400D0320C /* notificationsDetailsViewController.swift */; };
 		A9136E972B5D31D400FEC856 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9136E962B5D31D400FEC856 /* RegisterViewController.swift */; };
 		A9148C522B556599006EEBC9 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9148C512B556599006EEBC9 /* DMSans-Bold.ttf */; };
 		A9148C562B556A20006EEBC9 /* DMSans_18pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9148C552B556A20006EEBC9 /* DMSans_18pt-Regular.ttf */; };
 		A9148C592B556E93006EEBC9 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A9148C582B556E93006EEBC9 /* IQKeyboardManagerSwift */; };
 		A9148C5C2B55701D006EEBC9 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9148C5B2B55701D006EEBC9 /* OTPViewController.swift */; };
 		A915E3F62B67EBB6003E4B69 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A915E3F52B67EBB6003E4B69 /* ItemDetailsViewController.swift */; };
+		A92999D22BAB3AB6004FF72A /* notifications.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92999D12BAB3AB6004FF72A /* notifications.storyboard */; };
+		A92999D82BAB3C2E004FF72A /* TrackOrderStatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92999D62BAB3C2E004FF72A /* TrackOrderStatusTableViewCell.swift */; };
+		A92999D92BAB3C2E004FF72A /* TrackOrderStatusTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92999D72BAB3C2E004FF72A /* TrackOrderStatusTableViewCell.xib */; };
+		A92999DC2BAB414C004FF72A /* TrachOrderStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92999DB2BAB414C004FF72A /* TrachOrderStatusViewController.swift */; };
 		A93697302B836F9300FDC2C3 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A936972F2B836F9300FDC2C3 /* OrdersViewController.swift */; };
 		A93697342B83886500FDC2C3 /* OpenOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93697332B83886500FDC2C3 /* OpenOrdersViewController.swift */; };
 		A93697382B83888600FDC2C3 /* FinishedOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93697372B83888600FDC2C3 /* FinishedOrdersViewController.swift */; };
@@ -91,6 +99,9 @@
 		A9959ABD2B74E614001E3A5E /* CartCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9959ABC2B74E614001E3A5E /* CartCellViewModel.swift */; };
 		A99901172B97A8AD00F9DC9F /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99901162B97A8AD00F9DC9F /* PrivacyPolicyViewController.swift */; };
 		A999011B2B97AD0000F9DC9F /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A999011A2B97AD0000F9DC9F /* TermsViewController.swift */; };
+		A999BC902BAEF0E800104499 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A999BC8F2BAEF0E800104499 /* MessagesViewController.swift */; };
+		A999BC942BAEF1B600104499 /* MessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A999BC922BAEF1B600104499 /* MessagesTableViewCell.swift */; };
+		A999BC952BAEF1B600104499 /* MessagesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A999BC932BAEF1B600104499 /* MessagesTableViewCell.xib */; };
 		A99B27AF2B962DEB00BC8768 /* MoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99B27AE2B962DEB00BC8768 /* MoreViewModel.swift */; };
 		A99FAF432BA0AB3000EDC8B6 /* DeleteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99FAF422BA0AB2F00EDC8B6 /* DeleteViewModel.swift */; };
 		A9A04D6B2B5F2E9700497778 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A04D6A2B5F2E9700497778 /* MoreViewController.swift */; };
@@ -166,11 +177,19 @@
 		A91180CB2B67AB2D00B3763F /* ProductsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsCollectionViewCell.xib; sourceTree = "<group>"; };
 		A91180CE2B67B5A000B3763F /* TableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Extensions.swift"; sourceTree = "<group>"; };
 		A91180D02B67B5B800B3763F /* CollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		A9118BC52BAC785800D0320C /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		A9118BCA2BAC789100D0320C /* NotificationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewCell.swift; sourceTree = "<group>"; };
+		A9118BCB2BAC789100D0320C /* NotificationsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationsTableViewCell.xib; sourceTree = "<group>"; };
+		A9118BD02BAC925400D0320C /* notificationsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationsDetailsViewController.swift; sourceTree = "<group>"; };
 		A9136E962B5D31D400FEC856 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		A9148C512B556599006EEBC9 /* DMSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Bold.ttf"; sourceTree = "<group>"; };
 		A9148C552B556A20006EEBC9 /* DMSans_18pt-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans_18pt-Regular.ttf"; sourceTree = "<group>"; };
 		A9148C5B2B55701D006EEBC9 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
 		A915E3F52B67EBB6003E4B69 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		A92999D12BAB3AB6004FF72A /* notifications.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = notifications.storyboard; sourceTree = "<group>"; };
+		A92999D62BAB3C2E004FF72A /* TrackOrderStatusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackOrderStatusTableViewCell.swift; sourceTree = "<group>"; };
+		A92999D72BAB3C2E004FF72A /* TrackOrderStatusTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackOrderStatusTableViewCell.xib; sourceTree = "<group>"; };
+		A92999DB2BAB414C004FF72A /* TrachOrderStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrachOrderStatusViewController.swift; sourceTree = "<group>"; };
 		A936972F2B836F9300FDC2C3 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
 		A93697332B83886500FDC2C3 /* OpenOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenOrdersViewController.swift; sourceTree = "<group>"; };
 		A93697372B83888600FDC2C3 /* FinishedOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedOrdersViewController.swift; sourceTree = "<group>"; };
@@ -220,6 +239,9 @@
 		A9959ABC2B74E614001E3A5E /* CartCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCellViewModel.swift; sourceTree = "<group>"; };
 		A99901162B97A8AD00F9DC9F /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
 		A999011A2B97AD0000F9DC9F /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		A999BC8F2BAEF0E800104499 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		A999BC922BAEF1B600104499 /* MessagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTableViewCell.swift; sourceTree = "<group>"; };
+		A999BC932BAEF1B600104499 /* MessagesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessagesTableViewCell.xib; sourceTree = "<group>"; };
 		A99B27AE2B962DEB00BC8768 /* MoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewModel.swift; sourceTree = "<group>"; };
 		A99FAF422BA0AB2F00EDC8B6 /* DeleteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteViewModel.swift; sourceTree = "<group>"; };
 		A9A04D6A2B5F2E9700497778 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
@@ -383,6 +405,48 @@
 			path = cells;
 			sourceTree = "<group>";
 		};
+		A9118BC32BAC783100D0320C /* notificationsVC */ = {
+			isa = PBXGroup;
+			children = (
+				A9118BC72BAC786200D0320C /* cells */,
+				A9118BC42BAC783D00D0320C /* controllers */,
+			);
+			path = notificationsVC;
+			sourceTree = "<group>";
+		};
+		A9118BC42BAC783D00D0320C /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9118BC52BAC785800D0320C /* NotificationsViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		A9118BC72BAC786200D0320C /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				A9118BCA2BAC789100D0320C /* NotificationsTableViewCell.swift */,
+				A9118BCB2BAC789100D0320C /* NotificationsTableViewCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		A9118BCE2BAC922B00D0320C /* notificationsDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A9118BCF2BAC923700D0320C /* controllers */,
+			);
+			path = notificationsDetails;
+			sourceTree = "<group>";
+		};
+		A9118BCF2BAC923700D0320C /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9118BD02BAC925400D0320C /* notificationsDetailsViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
 		A9136E942B5D31BD00FEC856 /* Register */ = {
 			isa = PBXGroup;
 			children = (
@@ -443,6 +507,42 @@
 			children = (
 				A915E3F52B67EBB6003E4B69 /* ItemDetailsViewController.swift */,
 				A9AF07D92B72374100C9FD1D /* itemDetailsVC+UIPicker.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		A92999D32BAB3ABB004FF72A /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A91180BB2B679DB700B3763F /* Home.storyboard */,
+				A92999D12BAB3AB6004FF72A /* notifications.storyboard */,
+				A9D41E102B51DE1600307ACE /* Main.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		A92999D42BAB3BCF004FF72A /* TrackOrderStatus */ = {
+			isa = PBXGroup;
+			children = (
+				A92999DA2BAB412B004FF72A /* controllers */,
+				A92999D52BAB3BF3004FF72A /* cells */,
+			);
+			path = TrackOrderStatus;
+			sourceTree = "<group>";
+		};
+		A92999D52BAB3BF3004FF72A /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				A92999D62BAB3C2E004FF72A /* TrackOrderStatusTableViewCell.swift */,
+				A92999D72BAB3C2E004FF72A /* TrackOrderStatusTableViewCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		A92999DA2BAB412B004FF72A /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A92999DB2BAB414C004FF72A /* TrachOrderStatusViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -895,6 +995,32 @@
 			path = controllers;
 			sourceTree = "<group>";
 		};
+		A999BC8D2BAEF0C900104499 /* MessagesVC */ = {
+			isa = PBXGroup;
+			children = (
+				A999BC912BAEF19F00104499 /* cells */,
+				A999BC8E2BAEF0D400104499 /* controllers */,
+			);
+			path = MessagesVC;
+			sourceTree = "<group>";
+		};
+		A999BC8E2BAEF0D400104499 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A999BC8F2BAEF0E800104499 /* MessagesViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		A999BC912BAEF19F00104499 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				A999BC922BAEF1B600104499 /* MessagesTableViewCell.swift */,
+				A999BC932BAEF1B600104499 /* MessagesTableViewCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
 		A99B27AD2B962DDA00BC8768 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -956,6 +1082,10 @@
 		A9D41E092B51DE1600307ACE /* Fleen */ = {
 			isa = PBXGroup;
 			children = (
+				A999BC8D2BAEF0C900104499 /* MessagesVC */,
+				A9118BCE2BAC922B00D0320C /* notificationsDetails */,
+				A9118BC32BAC783100D0320C /* notificationsVC */,
+				A92999D42BAB3BCF004FF72A /* TrackOrderStatus */,
 				A94A26842BA8B757000F9F19 /* OrderConformation */,
 				A965CADC2B9F813B00AF2CFE /* deleteLocation */,
 				A965CAD22B9F711700AF2CFE /* AllLocations */,
@@ -988,7 +1118,7 @@
 				A9D8108B2B5414ED006881BF /* Onboarding */,
 				A9D41E0A2B51DE1600307ACE /* AppDelegate.swift */,
 				A9D41E0C2B51DE1600307ACE /* SceneDelegate.swift */,
-				A9D41E102B51DE1600307ACE /* Main.storyboard */,
+				A92999D32BAB3ABB004FF72A /* storyboard */,
 				A9D41E132B51DE1800307ACE /* Assets.xcassets */,
 				A9D41E152B51DE1800307ACE /* LaunchScreen.storyboard */,
 				A9D41E182B51DE1800307ACE /* Info.plist */,
@@ -996,7 +1126,6 @@
 				A991AC432B8CD31F00F8B5BA /* LanguageHelper.swift */,
 				A991AC412B8CD2FB00F8B5BA /* Localizer.swift */,
 				A9E68DF22B60883E00CAC6E0 /* InfoPlist.strings */,
-				A91180BB2B679DB700B3763F /* Home.storyboard */,
 			);
 			path = Fleen;
 			sourceTree = "<group>";
@@ -1213,11 +1342,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A99541A42B690A3A00CC5025 /* OrdersTableViewCell.xib in Resources */,
+				A999BC952BAEF1B600104499 /* MessagesTableViewCell.xib in Resources */,
 				A9D41E172B51DE1800307ACE /* LaunchScreen.storyboard in Resources */,
 				A965CADB2B9F717A00AF2CFE /* AllLocationsTableViewCell.xib in Resources */,
 				A91180C52B67A8D100B3763F /* AdsCollectionViewCell.xib in Resources */,
 				A9E68DF02B60883E00CAC6E0 /* InfoPlist.strings in Resources */,
 				A9148C522B556599006EEBC9 /* DMSans-Bold.ttf in Resources */,
+				A92999D92BAB3C2E004FF72A /* TrackOrderStatusTableViewCell.xib in Resources */,
 				A91180BC2B679DB700B3763F /* Home.storyboard in Resources */,
 				A9D41E142B51DE1800307ACE /* Assets.xcassets in Resources */,
 				A91180CD2B67AB2D00B3763F /* ProductsCollectionViewCell.xib in Resources */,
@@ -1225,8 +1356,10 @@
 				A9B094B52B5F2C4600DB9387 /* Localizable.strings in Resources */,
 				A90C01FC2B84D7D900B18A84 /* NoOrdersTableViewCell.xib in Resources */,
 				A9D810932B5415BB006881BF /* OnBoardingCollectionViewCell.xib in Resources */,
+				A92999D22BAB3AB6004FF72A /* notifications.storyboard in Resources */,
 				A9D6A6B52B96282800DEE4E2 /* MoreTableViewCell.xib in Resources */,
 				A9148C562B556A20006EEBC9 /* DMSans_18pt-Regular.ttf in Resources */,
+				A9118BCD2BAC789100D0320C /* NotificationsTableViewCell.xib in Resources */,
 				A9D41E122B51DE1600307ACE /* Main.storyboard in Resources */,
 				A99541A82B694B9C00CC5025 /* TimeCollectionViewCell.xib in Resources */,
 				A9AE71A02B6D13DA00748366 /* LocationTableViewCell.xib in Resources */,
@@ -1319,11 +1452,13 @@
 				A93697382B83888600FDC2C3 /* FinishedOrdersViewController.swift in Sources */,
 				A9959ABB2B74E3C6001E3A5E /* CartViewModel.swift in Sources */,
 				A90CCE502B6FAA7D006AB630 /* HomeVC + UICollectionView.swift in Sources */,
+				A999BC942BAEF1B600104499 /* MessagesTableViewCell.swift in Sources */,
 				A965CACE2B9F6B9600AF2CFE /* ChangeProfileViewModel.swift in Sources */,
 				A96A11E52B9904720070C490 /* ContactViewController.swift in Sources */,
 				A9D810B12B5490EA006881BF /* MobileViewModel.swift in Sources */,
 				A9959AB62B74E336001E3A5E /* CartVC+UITableView.swift in Sources */,
 				A965CAD62B9F714D00AF2CFE /* AllLocationsViewController.swift in Sources */,
+				A92999DC2BAB414C004FF72A /* TrachOrderStatusViewController.swift in Sources */,
 				A99541AB2B695E9500CC5025 /* OrderModel.swift in Sources */,
 				A91180C82B67A96E00B3763F /* FilterCollectionViewCell.swift in Sources */,
 				A995419F2B69084C00CC5025 /* CartViewController.swift in Sources */,
@@ -1332,6 +1467,7 @@
 				A9117C362B66542700C4562E /* VerifyCodeModel.swift in Sources */,
 				A96A11EB2B9905050070C490 /* ContactViewModel.swift in Sources */,
 				A9A04D6B2B5F2E9700497778 /* MoreViewController.swift in Sources */,
+				A9118BCC2BAC789100D0320C /* NotificationsTableViewCell.swift in Sources */,
 				A94A26872BA8B795000F9F19 /* OrderConfirmationViewController.swift in Sources */,
 				A9D8109D2B54298B006881BF /* Extensions+UITextfield.swift in Sources */,
 				A9DD0FFD2B61A98E00CC49FC /* Endpoints.swift in Sources */,
@@ -1340,10 +1476,12 @@
 				A9D810962B541C4E006881BF /* OnboardingModel.swift in Sources */,
 				A9AE719F2B6D13DA00748366 /* LocationTableViewCell.swift in Sources */,
 				A9D41E0D2B51DE1600307ACE /* SceneDelegate.swift in Sources */,
+				A9118BD12BAC925400D0320C /* notificationsDetailsViewController.swift in Sources */,
 				A98E5A7D2B878278009D0059 /* TotalOrderViewModel.swift in Sources */,
 				A97EC1F32B70D4AF00680E7E /* HomeVC+UISearch.swift in Sources */,
 				A9D6A6B42B96282800DEE4E2 /* MoreTableViewCell.swift in Sources */,
 				A9B17C392B73A8A000F73238 /* LocationViewModel.swift in Sources */,
+				A9118BC62BAC785800D0320C /* NotificationsViewController.swift in Sources */,
 				A99541A32B690A3A00CC5025 /* OrdersTableViewCell.swift in Sources */,
 				A9E1F9372B7AA8830065AC0C /* ThanksViewController.swift in Sources */,
 				A91180C02B679E2400B3763F /* HomeViewController.swift in Sources */,
@@ -1353,9 +1491,11 @@
 				A9DD10002B61ADEF00CC49FC /* MobileModel.swift in Sources */,
 				A97EC1F62B713AF300680E7E /* itemDetailsViewModel.swift in Sources */,
 				A96A6D572B5E7BD200C7666B /* RegisterViewModel.swift in Sources */,
+				A999BC902BAEF0E800104499 /* MessagesViewController.swift in Sources */,
 				A98E95BD2B9E4A9800ACB54B /* ChangeLanguageViewController.swift in Sources */,
 				A98E5A812B8789A9009D0059 /* OpenOrderVC+UITableView.swift in Sources */,
 				A91180CF2B67B5A000B3763F /* TableView+Extensions.swift in Sources */,
+				A92999D82BAB3C2E004FF72A /* TrackOrderStatusTableViewCell.swift in Sources */,
 				A9AF07DA2B72374100C9FD1D /* itemDetailsVC+UIPicker.swift in Sources */,
 				A9136E972B5D31D400FEC856 /* RegisterViewController.swift in Sources */,
 				A9D810922B5415BB006881BF /* OnBoardingCollectionViewCell.swift in Sources */,

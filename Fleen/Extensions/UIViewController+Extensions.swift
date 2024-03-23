@@ -108,6 +108,9 @@ extension UIViewController {
             
             button.addSubview(badgeView)
             
+            let tapGesture = UITapGestureRecognizer(target: self, action: #selector(rightBarButtonTapped))
+            badgeView.addGestureRecognizer(tapGesture)
+            
             let barButton = UIBarButtonItem(customView: button)
             navigationItem.rightBarButtonItem = barButton
         } else {
